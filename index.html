@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo-list</title>
+
+  <link href="todo.css" rel="stylesheet">
+  <link
+  href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+  rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="bilder/todo.png">
+</head>
+
+<body>
+  <main>
+    <h1>Todo-list</h1>
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="Todo" required>
+      <button type="submit">Legg til</button>
+    </form>
+    <div id="task-list"></div>
+  </main>
+
+  <script type="module" src="firebase.js"></script>
+</body>
+
+</html>
